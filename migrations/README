@@ -1,1 +1,39 @@
 Single-database configuration for Flask.
+# Superheroes API
+
+This is a Flask API for tracking superheroes and their superpowers. The API allows you to manage heroes and their associated powers through various endpoints.
+
+## Features
+
+- **Get all heroes**: Retrieve a list of all superheroes.
+- **Get hero details**: Get detailed information about a specific hero, including their powers.
+- **Get all powers**: Retrieve a list of all superpowers available.
+- **Update powers**: Modify the description of existing powers.
+- **Create hero powers**: Associate a hero with a power, including their strength level.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/marktony908/s-uperheroes-api-code-challange.git
+   cd s-uperheroes-api-code-challange
+  
+  Set up a virtual environment using Pipenv:
+
+
+
+pipenv install
+pipenv shell
+
+Run the application:
+
+
+
+flask run
+
+Postman Collection
+
+You can test the API using the included Postman collection. Import the challenge-2-superheroes.postman_collection.json file into Postman to get started.
+License
+
+This project is licensed under the MIT License
